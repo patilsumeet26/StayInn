@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: serif;
+}
+
+.border {
+    width: 70px;
+    height: 50px;
+    border:2px solid transparent;
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+}
+
+.border:hover {
+    background-color: #606c38;
+   
+}
+.navbar {
+    padding-top: 13px;
+    height: 55px;
+    background-color: #283618;
+    display: flex;
+}
+
+.logo {
+    
+    padding-left: 5px;
+     width: 100px;
+    height: 30px;
+}
+
+.logoimg {
+    width: 150px;
+    height: 30px;
+    background-image: url("hotel logo.jpg");
+    background-size:100%;
+}
+
+/*.n-home {
+    padding-left: 25%;
+}*/
+.home {
+    margin-left: 650%;
+    padding-bottom: 54%; 
+    font-size: 20px;
+    color: #fefae0;
+    text-decoration: none;
+}
