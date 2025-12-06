@@ -1,10 +1,11 @@
 * {
+    padding: 0;
     margin: 0;
     border: border-box;
     font-family: serif;
 }
 
-.border {
+/*.border {
     width: 70px;
     height: 50px;
     border:2px solid transparent;
@@ -15,16 +16,16 @@
 .border:hover {
     background-color: #606c38;
    
-}
+}*/
 .navbar {
-    padding-top: 13px;
     height: 55px;
     background-color: #283618;
     display: flex;
+    
 }
 
 .logo {
-    
+    padding-top: 9px;
     padding-left: 5px;
      width: 100px;
     height: 30px;
@@ -37,13 +38,20 @@
     background-size:100%;
 }
 
-/*.n-home {
-    padding-left: 25%;
-}*/
+
 .home {   
-    margin-left: 650%;
-    padding-bottom: 54%; 
+    width: 150px;
+    position: relative;
+    padding-left: 350px;
+    padding-top: 10px;
     font-size: 20px;
     color: #fefae0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
+
+.hovering:hover {
+    color:  #d6ffa7;
+}
+ 
