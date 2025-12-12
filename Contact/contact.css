@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: serif;
+}
+/* navbar*/
+
+.navbar {
+    height: 55px;
+    background-color: #fefae0;
+    display: flex;
+    
+}
+/* logo*/
+
+.logo {
+    padding-top: 9px;
+    padding-left: 5px;
+     width: 100px;
+    height: 30px;
+}
+
+.logoimg {  
+    width: 150px;
+    height: 30px;  
+    background-image: url("hotel logo.jpg");
+    background-size:100%;
+}
+ /*home*/
+
+.home {   
+    width: 150px;
+    position: relative;
+    padding-left: 250px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*room*/
+ 
+.rooms {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*dining*/
+
+.dining {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*contact*/
+
+.contact {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.hovering:hover {
+    color:  #000000;
+    font-size: 21px;
+    transition: 0.2s;
+}
+/*signin*/
+
+.signin {   
+    width: 150px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;  
+}
