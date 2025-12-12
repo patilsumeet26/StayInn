@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: serif;
+}
+/* navbar*/
+
+.navbar {
+    height: 55px;
+    background-color: #fefae0;
+    display: flex;
+    
+}
+/* logo*/
+
+.logo {
+    padding-top: 9px;
+    padding-left: 5px;
+     width: 100px;
+    height: 30px;
+}
+
+.logoimg {  
+    width: 150px;
+    height: 30px;  
+    background-image: url("hotel logo.jpg");
+    background-size:100%;
+}
+ /*home*/
+
+.home {   
+    width: 150px;
+    position: relative;
+    padding-left: 250px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*room*/
+ 
+.rooms {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*dining*/
+
+.dining {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*contact*/
+
+.contact {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.hovering:hover {
+    color:  #000000;
+    font-size: 21px;
+    transition: 0.2s;
+}
+/*signin*/
+
+.signin {   
+    width: 150px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;  
+}
+/* welcome to StayInn*/
+
+.bgimg {
+    height: 550px;
+    width: auto;
+    background-image: url("HOME box1bg.jpg");
+    background-size: cover;
+
+}
+/*first sentence*/
+
+.first_sen {
+    height:45px;
+    padding-top: 130px;
+    padding-left: 350px;
+    padding-right: 340px;
+    color: whitesmoke;
+    font-size: 65px;
+
+}
+
+.first_sen:hover {
+    font-size: 68px;
+    transition: 0.5s;
+}
+/*second sentence*/
+
+p {
+    height:65px;
+    padding-top: 40px;
+    padding-left: 330px;
+    padding-right: 300px;
+    color: rgb(170, 170, 170);
+    font-size: 25px;
+} 
+/*features*/
+
+.features {
+    display: flex;
+
+}
+/*parking*/
+
+.parking {
+    height: 5px;
+    padding-top: 13px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #283618;
+    margin-left: 468px;
+}
+
+.border {
+    height: 36px;
+    width: 132px;
+    border-radius: 20px;
+    background-color:  #fefae0;
+}
+/*free wi-fi*/
+
+.wifi {
+    height: 36px;
+    padding-top: 13px;
+    padding-left: 18px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #283618;
+    margin-left: 35px;   
+}
+/*details*/
+
+.details {
+    height: 100px;
+    width: 1080px;
+    border-radius: 25px;
+    border: 2px solid #283618;
+    display: flex;
+    background-color: #fefae0;
+    margin-left: 90px;
+}
+/*location*/
+
+.location {
+    height: 70px;
+    width: 180px;
+    background-color: #dda15e;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+#loc {
+    margin-left: 8px;
+}
+
+select {
+    background-color: #dda15e;
+    border-style: none;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+/*checkin*/
+
+.checkin {
+    height: 70px;
+    width: 180px;
+    background-color: #dda15e;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+input {
+    background-color: #dda15e;
+    border-style: none;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 13px;
+}
+
+#check1 {
+    margin-left: 8px;
+}
+/*checkout*/
+
+.checkout {
+    height: 70px;
+    width: 180px;
+    background-color: #dda15e;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+#check2 {
+    margin-left: 8px;
+}
+/*guests*/
+
+.guests {
+    height: 70px;
+    width: 180px;
+    background-color: #dda15e;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+#guest {
+    margin-left: 8px;
+}
+/*search*/
+
+.search {
+    height: 70px;
+    width: 180px;
+    background-color: #bc6c25;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 29px;
+}
+
+#search1 {
+    margin-top: 22px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.s1 {
+    text-decoration: none;
+    color: black;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
