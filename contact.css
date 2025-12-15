@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: serif;
+}
+/* navbar*/
+
+.navbar {
+    height: 55px;
+    background-color: #fefae0;
+    display: flex;
+    
+}
+/* logo*/
+
+.logo {
+    padding-top: 9px;
+    padding-left: 5px;
+     width: 100px;
+    height: 30px;
+}
+
+.logoimg {  
+    width: 150px;
+    height: 30px;  
+    background-image: url("hotel logo.jpg");
+    background-size:100%;
+}
+ /*home*/
+
+.home {   
+    width: 150px;
+    position: relative;
+    padding-left: 250px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*room*/
+ 
+.rooms {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*dining*/
+
+.dining {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+/*contact*/
+
+.contact {   
+    width: 150px;
+    position: relative;
+    padding-left: 2px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.hovering:hover {
+    color:  #000000;
+    font-size: 21px;
+    transition: 0.2s;
+}
+/*signin*/
+
+.signin {   
+    width: 150px;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #283618;
+    text-decoration: none;
+    display: flex;  
+}
+
+/*bg image*/
+.bgimg {
+    background-image: url("Contact box1 bg.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sen1 {
+    position: relative;
+    top: 130px;
+    left: 470px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.sen2 {
+    position: relative;
+    top: 140px;
+    left: 400px;
+    font-size: 25px;
+    color: #d9d9d9;
+}
+
+.con-info {
+    background-color: #fefae0;
+    height: 900px;
+}
+
+.heading {
+    position: relative;
+    top: 16px;
+    left: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #283618;
+}
+
+.phone {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 45px;
+    font-size: 20px;
+    color: #606c38;
+    background-color: #a8b580;
+    border-radius: 50%;
+}
+
+.phone-icon {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.t-head {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #283618;
+}
+
+.t-number {
+    position: relative;
+    padding-top: 5px;
+    top: 10px;
+    left: 150px;
+    font-size: 25px;
+    color: #606c38;
+}
